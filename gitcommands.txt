@@ -1,0 +1,18 @@
+# Cloning the remote repository stored on github to your local machine for the first time 
+git clone https://github.com/FLC-Innovation-Center-TV/BekonixServer.git
+
+# commands to make changes 
+git add . 
+git commit -m "type a comment out describing the changes made"
+git push 
+
+# command to get the existing file and code changes from the remote repo 
+git pull 
+
+
+
+Explanations 
+----------------------
+git add . #git add . will add all the saved files to be ready to commit 
+git commit -m "type a comment out describing the changes made" # actually commit the changes with a comment 
+git push # pushes the local changes to the remote repo 
